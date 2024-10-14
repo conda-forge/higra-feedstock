@@ -28,6 +28,7 @@ requirements:
     - python
     - pip
     - numpy
+    - setuptools
   run:
     - python
     - numpy
@@ -42,7 +43,7 @@ test:
 
 about:
   home: https://github.com/higra/Higra
-  license: CeCILL-B
+  license: CECILL-B
   license_file: LICENSE
   summary: 'Hierarchical graph analysis library'
   doc_url: https://higra.readthedocs.io
