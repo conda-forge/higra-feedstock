@@ -1,5 +1,5 @@
 {% set name = "higra" %}
-{% set version = "0.6.10" %}
+{% set version = "0.6.12" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/higra/Higra/archive/refs/tags/{{ version }}.tar.gz
-  sha256: 07fed308a736d3c7f191832b78ef006fe69aa5a3ce7ed920cce6760c0cee3968
+  sha256: 9903eae9d38ddab79872b1812a40d7d4a65b8bf860bd547f87a355618c2408bb
 
 build:
   number: 0
